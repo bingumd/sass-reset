@@ -1,0 +1,16 @@
+{
+  "name": "@bingumd/sass-reset",
+  "version": "0.1.0",
+  "author": "bingumd <bingumd@gmail.com>",
+  "description": "Small sass reset with options",
+  "main": "index.scss",
+  "homepage": "https://github.com/bingumd/sass-reset",
+  "license": "MIT",
+  "repository": "bingumd/sass-reset",
+  "keywords": [
+    "reset",
+    "css",
+    "sass",
+    "scss"
+  ]
+}

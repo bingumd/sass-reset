@@ -1,0 +1,112 @@
+$box-sizing: border-box !default;
+$body-line-height: 1.5 !default;
+$headins-font-weight: normal !default;
+
+html {
+    box-sizing: $box-sizing;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+address,
+blockquote,
+figure,
+fieldset,
+legend,
+input,
+button,
+textarea,
+select
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-rendering: optimizeSpeed;
+    line-height: $body-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: $headins-font-weight;
+}
+
+ul {
+    list-style: none;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    padding: unset;
+    margin: unset;
+    border: unset;
+    border-radius: unset;
+    background-color: unset;
+}
+
+img,
+picture,
+object,
+iframe,
+embed,
+canvas,
+video {
+    height: auto;
+    max-width: 100%;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+svg {
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0;
+}
