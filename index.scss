@@ -1,6 +1,7 @@
 $box-sizing: border-box !default;
 $body-line-height: 1.5 !default;
 $headins-font-weight: normal !default;
+$addres-font-style: normal !default;
 
 html {
     box-sizing: $box-sizing;
@@ -109,4 +110,8 @@ table {
 td,
 th {
     padding: 0;
+}
+
+address {
+    font-size: $addres-font-style;
 }
