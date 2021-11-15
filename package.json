@@ -1,6 +1,6 @@
 {
   "name": "@bingumd/sass-reset",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "bingumd <bingumd@gmail.com>",
   "description": "Small sass reset with options",
   "main": "index.scss",
